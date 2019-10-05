@@ -1,2 +1,2 @@
 sunpy[net,image]
-pip install git+https://gitlab.com/LMSAL_HUB/aia_hub/aiapy.git@master
+-e git://gitlab.com/LMSAL_HUB/aia_hub/aiapy.git#egg=aiapy
