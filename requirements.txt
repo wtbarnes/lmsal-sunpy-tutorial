@@ -1,2 +1,2 @@
 sunpy[net,image]
--e git://gitlab.com/LMSAL_HUB/aia_hub/aiapy.git#egg=aiapy
+-e https://gitlab.com/LMSAL_HUB/aia_hub/aiapy.git#egg=aiapy
