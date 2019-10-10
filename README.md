@@ -8,30 +8,15 @@ analyze AIA data using sunpy and aiapy.
 ## Outline
 
 * Querying AIA Data with Fido
-  * Grab multiple images in time
-  * Mention drms
-  * Minimal example using drms to recombine headers and data
-* Reading/loading AIA data
-  * Just feed to Map!
-  * Maybe show quick example of reading with astropy.io.fits 
-* Anatomy of a Map
-  * Data + metadata--show how to inspect both
-  * Tour of attributes
-  * What it does and does **not** do
+* The `Map` Object
+* Units
 * Image manipulation, coordinates, units
+  * Rotation
   * Submaps
-  * Units
-  * Coordinates
   * Converting between pixels and world coordinates 
   * Derotation
+* Coordinates
 * Visualization
-  * Example of plotting without maps (e.g. `imshow`)
-  * Basics of plotting maps
-  * Advanced examples ("an exercise for the reader")
-    * Plotting multiple AIA images in a subplot with HPC ticks on llc, HGS ticks on urc
-    * HMI full disk plus cutout with "zoom" (see Ch. 4 of thesis)
-* Advanced Examples
-  * Reprojection (see [this gist](https://gist.github.com/Cadair/5742d3f3f1d6e33c71510ede6426d6ed)) -- just show, don't dive into details
 * An tour of aiapy
   * Correcting pointing keywords
   * Registration
@@ -49,3 +34,24 @@ analyze AIA data using sunpy and aiapy.
   * animate
   
 ## Resources
+
+* Python
+  * [Installing Anaconda](https://docs.anaconda.com/anaconda/install/)
+  * [Running a Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/running.html#running)
+  * [A Collection of Matplotlib Tutorials](https://matplotlib.org/3.1.1/tutorials/index.html)
+* [SunPy](https://sunpy.org/)
+  * [Docs](https://docs.sunpy.org/en/stable/)
+  * [User Guide](https://docs.sunpy.org/en/stable/guide/index.html)
+  * [Example Gallery](https://docs.sunpy.org/en/stable/generated/gallery/index.html)
+  * [Tutorial Notebooks](https://github.com/sunpy/tutorial-notebooks)
+  * [SunPy v1.0 paper](https://github.com/sunpy/sunpy-1.0-paper) -- accepted for publication in ApJ
+* [aiapy](https://gitlab.com/LMSAL_HUB/aia_hub/aiapy)
+  * [Docs](https://aiapy.readthedocs.io/en/latest/?badge=latest)
+* [AstroPy](https://www.astropy.org/)
+  * [Docs](http://docs.astropy.org/en/stable/)
+  * [Units](http://docs.astropy.org/en/stable/units/index.html)
+  * [Coordinates](http://docs.astropy.org/en/stable/coordinates/index.html)
+  * [Plotting with WCS](https://wcsaxes.readthedocs.io/en/latest/)
+* [HelioPy](https://docs.heliopy.org/en/stable/)
+* [Python in Heliophysics](http://heliopython.org/) -- community of Python packages for heliophysics
+* [HelioML](http://helioml.org/title) -- a book about machine learning, statistics, and data mining for heliophysics.
