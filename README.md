@@ -10,28 +10,10 @@ analyze AIA data using sunpy and aiapy.
 * Querying AIA Data with Fido
 * The `Map` Object
 * Units
-* Image manipulation, coordinates, units
-  * Rotation
-  * Submaps
-  * Converting between pixels and world coordinates 
-  * Derotation
+* Image manipulation
 * Coordinates
 * Visualization
 * An tour of aiapy
-  * Correcting pointing keywords
-  * Registration
-  * Normalizing to exposure time
-  * Correcting for image degradation
-  * Response function calculations
-
-## Brainstorming
-
-* Would be nice to show how to stack images and create timeseries--maybe try out ndcube for this?
-  * prep
-  * derotate
-  * stack
-  * plot/extract timeseries
-  * animate
   
 ## Resources
 
